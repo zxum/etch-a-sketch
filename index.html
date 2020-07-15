@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-a-Sketch</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/31b3a4ba31.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="headline">
+        Etch-a-Sketch!
+    </div>
+
+    <div id="etching-area">
+
+        <div id="control-panel">
+
+            <input type="number" id="size-input" min=1 max=1000 placeholder="Resize the canvas">
+            <button class="btns" id="resizebtn" alt="Resize the canvas" title="Resize the canvas"><i class="fas fa-edit"></i></button>
+            <button class="btns" id="clearbtn" alt="Clear the canvas" title="Clear the canvas"><i class="fas fa-eraser"></i></button>
+            <button class="btns" id="palettebtn" alt="Gradient style" title="Gradient style"><i class="fas fa-palette"></i></button>
+        </div>
+
+        <div id="container">
+
+        </div>
+
+    </div>
+
+</body>
+<script src="index.js"></script>
+
+</html>
